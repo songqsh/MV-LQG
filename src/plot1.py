@@ -13,10 +13,10 @@ from matplotlib import cm
 import numpy as np
 
 # Make data.
-T = 1.
-x = 0.
-y = 1.
-z = -2.
+T = 78
+x = 9
+y = 5 
+z = -2
 
 P = np.linspace(0,1,11)
 Q = np.linspace(0,1,11)

@@ -24,7 +24,7 @@ ax = fig.gca(projection='3d')
 X = np.arange(-5, 5, 0.25)
 Y = np.arange(-5, 5, 0.25)
 X, Y = np.meshgrid(X, Y)
-R = np.sqrt(X**2 + Y**2)
+R = np.sqrt(X**12+Y**12)
 Z = np.sin(R)
 
 # Plot the surface.
